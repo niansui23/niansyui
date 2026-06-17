@@ -1,0 +1,56 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/158myu8e_yme3.js"],"default"]
+3:I[37457,["/_next/static/chunks/158myu8e_yme3.js"],"default"]
+a:I[68027,["/_next/static/chunks/158myu8e_yme3.js"],"default",1]
+:HL["/_next/static/chunks/44s_sa0r8vdyf.css","style"]
+4:T5db,
+          (function(){
+            var mb=document.getElementById('mobile-menu-btn');
+            var mn=document.getElementById('mobile-nav');
+            if(mb&&mn){
+              mb.addEventListener('click',function(){
+                mn.classList.toggle('open');
+                mb.textContent=mn.classList.contains('open')?'✕':'☰';
+              });
+            }
+            var btn=document.getElementById('back-to-top');
+            if(btn){
+              window.addEventListener('scroll',function(){
+                btn.classList.toggle('visible',window.scrollY>300);
+              });
+              btn.addEventListener('click',function(){
+                window.scrollTo({top:0,behavior:'smooth'});
+              });
+            }
+            var backBtn=document.getElementById('floating-back-btn');
+            var backBtnInner=document.getElementById('floating-back-btn-inner');
+            function checkBackButton(){
+              var isSubPage=window.location.pathname!=='/' && !window.location.pathname.endsWith('/') && !window.location.pathname.endsWith('/index.html');
+              if(backBtn){
+                backBtn.style.display=isSubPage?'flex':'none';
+              }
+            }
+            if(backBtnInner){
+              backBtnInner.addEventListener('click',function(){
+                window.history.back();
+              });
+            }
+            checkBackButton();
+            window.addEventListener('popstate',checkBackButton);
+          })();
+        0:{"P":null,"c":["","roco","eggs"],"q":"","i":false,"f":[[["",{"children":["roco",{"children":["eggs",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/44s_sa0r8vdyf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/158myu8e_yme3.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta",null,{"name":"theme-color","content":"#6366f1"}],["$","link",null,{"rel":"icon","href":"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>"}]]}],["$","body",null,{"children":[["$","nav",null,{"className":"navbar","children":[["$","a",null,{"href":"/","className":"nav-brand","children":"niansui.cc"}],["$","div",null,{"className":"nav-links","children":[["$","a",null,{"href":"/","children":"首页"}],["$","a",null,{"href":"/roco","children":"洛克王国"}],["$","span",null,{"className":"nav-disabled","children":"更多专题"}]]}],["$","button",null,{"className":"mobile-menu-btn","id":"mobile-menu-btn","children":"☰"}]]}],["$","div",null,{"className":"mobile-nav","id":"mobile-nav","children":[["$","a",null,{"href":"/","children":"首页"}],["$","a",null,{"href":"/roco","children":"洛克王国"}],["$","span",null,{"className":"nav-disabled-mobile","children":"更多专题（敬请期待）"}]]}],["$","main",null,{"className":"main-content","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"footer","children":["$","p",null,{"children":"© 2026 niansui.cc"}]}],["$","div",null,{"className":"floating-back-btn","id":"floating-back-btn","children":["$","button",null,{"id":"floating-back-btn-inner","aria-label":"返回上一页","children":["$","svg",null,{"width":"20","height":"20","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","children":["$","path",null,{"d":"M19 12H5M12 19l-7-7 7-7"}]}]}]}],["$","button",null,{"className":"back-to-top","id":"back-to-top","aria-label":"返回顶部","children":"↑"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$4"}}]]}]]}]]}],{"children":["$L5",{"children":["$L6",{"children":["$L7",{},null,false,null]},null,false,"$@8"]},null,false,"$@8"]},null,false,null],"$L9",false]],"m":"$undefined","G":["$a",["$Lb"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"J3s9py5JvZojjhT8x7fWj"}
+c:I[77005,["/_next/static/chunks/158myu8e_yme3.js","/_next/static/chunks/2t1dw6m0lrol_.js"],"default"]
+d:I[97367,["/_next/static/chunks/158myu8e_yme3.js"],"OutletBoundary"]
+e:"$Sreact.suspense"
+11:I[97367,["/_next/static/chunks/158myu8e_yme3.js"],"ViewportBoundary"]
+13:I[97367,["/_next/static/chunks/158myu8e_yme3.js"],"MetadataBoundary"]
+5:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+6:["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+7:["$","$1","c",{"children":[["$","$Lc",null,{}],[["$","script","script-0",{"src":"/_next/static/chunks/2t1dw6m0lrol_.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}]
+10:[]
+8:"$W10"
+9:["$","$1","h",{"children":[null,["$","$L11",null,{"children":"$L12"}],["$","div",null,{"hidden":true,"children":["$","$L13",null,{"children":["$","$e",null,{"name":"Next.Metadata","children":"$L14"}]}]}],null]}]
+b:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/44s_sa0r8vdyf.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+f:null
+14:[["$","title","0",{"children":"孵蛋指南 · 洛克王国：世界"}],["$","meta","1",{"name":"description","content":"孵蛋系统说明、体型机制、遗传机制、蛋尺寸重量对照表"}]]
